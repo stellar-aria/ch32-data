@@ -182,7 +182,7 @@
   address: 0x40010400
   registers:
     kind: exti
-    version: common
+    version: h4
     block: EXTI
   # H4 has 27 EXTI lines (0..26). Lines 0-15 GPIO-routable via AFIO.
   # Lines 16-26 are peripheral wake-up events. Aggregated interrupts:
